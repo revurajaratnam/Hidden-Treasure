@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: sticky;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://assets.hostbento.com/images/7445484102680100864/7445484199757266944/premium-seafood-platter.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100vw;
+    color: white;
+    padding: 1% 10%;
+    height: 95vh;
+    z-index: -1;
+    
+}
+.navbar{
+    position:sticky;
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    align-items: center;
+    margin: 1em 0em;
+    flex-wrap:wrap;
+    z-index: 1;
+}
+#Heading{
+    font-weight: bold;
+    font-size: 1.8em;
+}
+.menu{
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    list-style: none;
+    font-family:arial;
+    font-weight: bold;
+}
+.contact-menu{
+    position:static;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    list-style: none;
+    align-items: center;
+    font-family: poppins;
+    font-weight: bold;
+}
+.contact-menu #rsvtable{
+    color: white;
+    background: red;
+    padding:0.5em 1em;
+    text-decoration: none;
+    border-radius: 0.5em;
+}
+#icon{
+    color: red;
+}
+.main-text #main{
+    font-size: 7em;
+    font-family:'Outfit',sans-serif;
+}
+.main-text #paragraph{
+    font-family: 'poppins',sans-serif;
+    width: 24em;
+    font-size: 2em;
+    font-weight:normal;
+    margin-bottom: 2em;
+}
+.main-text #btn-1{
+    color: white;
+    background: red;
+    padding: 1.5em 1em;
+    padding-right: 5em;
+    border: none;
+    border-radius: 0.5em;
+    width: 15em;
+    font-weight: bold;
+    margin-right: 2em;
+}
+.main-text #btn-2{
+    color: white;
+    background: rgba(255, 255, 255, 0.2) ;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 1em;
+    border: 0.1em solid #ccc;
+}
+.hero1{
+    height: 1000px;
+}
