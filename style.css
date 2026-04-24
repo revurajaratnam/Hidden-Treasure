@@ -37,6 +37,13 @@
     font-family:arial;
     font-weight: bold;
 }
+.menu a{
+    text-decoration: none;
+    color:white;
+}
+.menu li:hover{
+    border-bottom:1px solid red;
+}
 .contact-menu{
     display: flex;
     flex-wrap: wrap;
@@ -46,6 +53,7 @@
     font-family: poppins;
     font-weight: bold;
     height:15vh;
+   
 }
 .contact-menu #rsvtable{
     color: white;
