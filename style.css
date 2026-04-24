@@ -3,26 +3,25 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    position: sticky;
+.page1{
+    position: static;
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://assets.hostbento.com/images/7445484102680100864/7445484199757266944/premium-seafood-platter.webp);
     background-repeat: no-repeat;
     background-size:cover;
     width: 100vw;
     color: white;
-    padding: 1% 10%;
-    height: 95vh;
+    padding: 0.5% 10%;
+    height: 90vh;
     z-index: -1;
     align-items: center;
-    
 }
 .navbar{
     position:sticky;
     display: flex;
     justify-content: space-between;
-    gap: 10%;
+    gap:1%;
     align-items: center;
-    margin: 1em 0em;
+    margin: 0.2em 0em;
     flex-wrap:wrap;
     z-index: 1;
 }
@@ -31,7 +30,6 @@ body{
     font-size: 1.8em;
 }
 .menu{
-    position: static;
     display: flex;
     flex-wrap: wrap;
     gap: 2em;
@@ -40,7 +38,6 @@ body{
     font-weight: bold;
 }
 .contact-menu{
-    position:static;
     display: flex;
     flex-wrap: wrap;
     gap: 0.5em;
@@ -48,6 +45,7 @@ body{
     align-items: center;
     font-family: poppins;
     font-weight: bold;
+    height:15vh;
 }
 .contact-menu #rsvtable{
     color: white;
@@ -60,13 +58,14 @@ body{
     color: red;
 }
 .main-text #main{
-    font-size: 7em;
+    font-size: 7vw;
     font-family:'Outfit',sans-serif;
+    margin-top: 5vh;
 }
 .main-text #paragraph{
     font-family: 'poppins',sans-serif;
     width: 24em;
-    font-size: 2em;
+    font-size:1vw;
     font-weight:normal;
     margin-bottom: 2em;
 }
@@ -93,4 +92,35 @@ body{
 }
 .hero1{
     height: 1000px;
+}
+.page2{
+    display: flex;
+    padding: 10% 10%;
+    flex-wrap:nowrap;
+}
+.page2 img{
+    width: 600px;
+    height: 500px;
+    border-radius: 2em;
+}
+.page2 .th-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:5em;
+}
+.page2 .hero11 .th{
+    font-size: 1em;
+    padding: 2em 0em;
+}
+.page2 .hero11 #bname {
+    font-size: 3.5em;
+    padding-right: 1em;
+}
+.page2 .hero11 span{
+    color: #ccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.page2 .hero11 p{
+    padding: 1em 0em;
+    font-size: 1.8em;
+    padding-right: 2.5em;
 }
